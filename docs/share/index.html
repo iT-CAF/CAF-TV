@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CAF TV · أرسل الملخص</title>
+<!-- Opened from the QR code optimize/share.sh shows: the summary travels in the address after #, so it never
+     reaches a server until the owner presses «أرسل»: then it goes to the author's Google Form (anonymous, no
+     account), a row in the author's sheet. -->
+<style>
+  :root { --bg: #f6f4ef; --card: #fff; --ink: #1c1b19; --muted: #6b665d; --line: #e4dfd5; --accent: #0f6b4f; --on-accent: #fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151513; --card: #1f1e1b; --ink: #f1eee7; --muted: #a9a398; --line: #34322d; --accent: #3fae86; --on-accent: #0c1712; }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }   /* .go sets display: block, which would beat it */
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Tahoma, sans-serif; }
+  main { max-width: 34rem; margin: 0 auto; padding: 24px 16px 40px; }
+  h1 { font-size: 1.35rem; margin: 0 0 .25rem; }
+  p { margin: .25rem 0 1rem; color: var(--muted); }
+  button.go { width: 100%; border: 0; cursor: pointer; font-family: inherit; }
+  button.go:disabled { opacity: .6; }
+  .go { display: block; text-align: center; text-decoration: none; background: var(--accent); color: var(--on-accent);
+        font-weight: 700; font-size: 1.1rem; padding: 16px; border-radius: 14px; }
+  .done { text-align: center; color: var(--accent); font-weight: 600; min-height: 1.6em; margin: .6rem 0 1rem; }
+  pre { direction: ltr; text-align: left; white-space: pre-wrap; word-break: break-word; background: var(--card);
+        border: 1px solid var(--line); border-radius: 12px; padding: 14px; font: 13px/1.5 ui-monospace, Menlo, Consolas, monospace; margin: 0; }
+  .empty { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ملخص تركيب كاف TV</h1>
+  <p>شكراً إنك تشاركه: يساعد صاحب المشروع يحسّن التركيب للكل. ما فيه أي شي شخصي.</p>
+  <div id="ready" hidden>
+    <button class="go" id="send" type="button">أرسل</button>
+    <div class="done" id="done" role="status"></div>
+    <pre id="text"></pre>
+  </div>
+  <div class="empty" id="none" hidden>ما وصل ملخص مع الرابط. امسح الكود اللي على شاشة الكمبيوتر مرة ثانية.</div>
+</main>
+<script>
+  // the author's Google Form: its id, and its one question's (the same in optimize/share.py)
+  var FORM_ID = "1FAIpQLSfDJFfy1NgiB-ZMXoBI29n_KTdYnGadn1-iOqXJOxaQJEr-ZQ", FORM_FIELD = "1457112794";
+  var text = "";
+  try { text = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
+  if (text) {
+    document.getElementById("text").textContent = text;
+    document.getElementById("ready").hidden = false;
+  } else {
+    document.getElementById("none").hidden = false;
+  }
+  document.getElementById("send").addEventListener("click", function () {
+    var button = this, done = document.getElementById("done");
+    button.disabled = true;
+    done.textContent = "يرسل…";
+    var body = new URLSearchParams();
+    body.append("entry." + FORM_FIELD, text);
+    // Google answers without CORS headers: the reply can't be read, but a network failure still shows up
+    fetch("https://docs.google.com/forms/d/e/" + FORM_ID + "/formResponse", { method: "POST", mode: "no-cors", body: body })
+      .then(function () { done.textContent = "تم الإرسال ✓ شكراً لك"; button.hidden = true; })
+      .catch(function () { done.textContent = "ما انرسل: تأكد من الإنترنت وجرّب مرة ثانية"; button.disabled = false; });
+  });
+</script>
+</body>
+</html>

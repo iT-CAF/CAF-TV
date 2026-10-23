@@ -1,0 +1,21 @@
+name: Checks
+
+# tests/run.sh on every push: build, data, photos, fonts, scripts, private data, and the screen
+# in a real browser. The Android apps are compiled by android.yml.
+on:
+  push:
+    branches: [master, next, content]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: pip install fonttools brotli pillow
+      - run: npm install --no-save playwright@1.56.1 && npx playwright install --with-deps chromium
+      - run: tests/run.sh

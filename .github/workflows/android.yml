@@ -1,0 +1,106 @@
+name: Build APKs
+
+on:
+  push:
+    branches: [master, next]   # next: a test build in apk-next, before anything reaches apk-latest
+    paths: ['src/**', 'assets/**', 'android/**', '.github/workflows/android.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the page
+        run: python3 src/build.py
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      # the signing key lives only in the repository's secrets (made once with .github/tools/make_signing_key.py)
+      - name: Signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          if [ -z "$KEYSTORE_B64" ] || [ -z "$KEYSTORE_PASSWORD" ]; then
+            echo "::error::ANDROID_KEYSTORE_B64 and ANDROID_KEYSTORE_PASSWORD must both be in the repository's secrets"; exit 1
+          fi
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.p12"
+          echo "ANDROID_KEYSTORE=$RUNNER_TEMP/release.p12" >> "$GITHUB_ENV"
+
+      - name: Build APKs
+        env:
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          URTV_BRANCH: ${{ github.ref_name }}   # the screensaver fetches its page from the branch it was built from
+        run: gradle -p android assembleRelease --no-daemon
+
+      - name: Rename
+        run: |
+          cp android/app/build/outputs/apk/release/app-release.apk caftv-screensaver.apk
+          cp android/launcher/build/outputs/apk/release/launcher-release.apk caftv-home.apk
+
+      # apksigner, not keytool: the home APK has no v1 (JAR) signature, so keytool sees no signer in it
+      - name: Which key signed them
+        run: |
+          apksigner=$(ls -d "$ANDROID_HOME"/build-tools/*/apksigner | sort -V | tail -1)
+          for f in caftv-screensaver.apk caftv-home.apk; do
+            echo "$f:"; "$apksigner" verify --print-certs "$f" | grep -m2 -E 'certificate (DN|SHA-256)'
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: apks
+          path: |
+            caftv-screensaver.apk
+            caftv-home.apk
+
+      # fixed download links: .../releases/download/apk-latest/caftv-screensaver.apk and caftv-home.apk
+      - name: Publish to the apk-latest release
+        if: github.ref_name == 'master'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-latest
+          name: Latest APKs
+          body: "Both apps at version 3.${{ github.run_number }}, built from ${{ github.sha }}"
+          files: |
+            caftv-screensaver.apk
+            caftv-home.apk
+          make_latest: true
+
+      # and every build kept under its own number, the apps' version: APK_TAG=v3.N optimize/install.sh all
+      - name: Publish to the numbered release
+        if: github.ref_name == 'master'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v3.${{ github.run_number }}
+          name: CAF TV 3.${{ github.run_number }}
+          body: "Both apps at version 3.${{ github.run_number }}, built from ${{ github.sha }}"
+          files: |
+            caftv-screensaver.apk
+            caftv-home.apk
+          make_latest: false
+
+      # next: one test release, replaced by each build; install with APK_TAG=apk-next optimize/install.sh all
+      - name: Publish to the apk-next test release
+        if: github.ref_name == 'next'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-next
+          name: Test build from next
+          body: "Both apps at version 3.${{ github.run_number }}, built from next at ${{ github.sha }}. For testing only."
+          files: |
+            caftv-screensaver.apk
+            caftv-home.apk
+          prerelease: true
+          make_latest: false

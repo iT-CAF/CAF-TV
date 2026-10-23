@@ -1,0 +1,28 @@
+name: Fetch Unsplash candidates
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['.github/tools/fetch_unsplash.py']
+
+permissions:
+  contents: write
+
+jobs:
+  unsplash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/tools/fetch_unsplash.py
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+      - name: Push to bg-unsplash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan bg-unsplash
+          git rm -rfq --cached .
+          git add unsplash
+          git commit -qm "Unsplash candidates"
+          git push -f origin bg-unsplash

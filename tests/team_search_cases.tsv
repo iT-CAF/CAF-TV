@@ -1,0 +1,85 @@
+# query<TAB>first result id ("-" = no results)<TAB>ids that must be in the results<TAB>ids that must not be
+# Saudi clubs first when names clash: 136013 Al-Hilal, 136022 Al-Nassr, 136137 Saudi Arabia, 150639 Saudi Al-Arabi
+الهلال	136013		136017,136018
+هلال	136013
+الهِلاَل	136013
+ـالـهلال	136013
+نادي الهلال	136013
+Al-Hilal	136013
+Al Hilal	136013
+AL HILAL FC	136013
+alhilal	136013
+Hilal	136013
+hilal sfc	136013
+النصر	136022	137831
+نصر	136022
+Al Nassr	136022
+Al-Nasr	136022	137831
+نادي النصر	136022
+الاتحاد	136018
+Al Ittihad	136018
+Al-Ittihad	136018
+الوحدة	136199	137836
+الوحده	136199	137836
+Al Wahda	136199	137836
+الاهلي	137721	138995
+الأهلي	137721	138995
+الإهلي	137721	138995
+الفيصلي	136021
+الفيصلى	136021
+Faisaly	136021
+الزلفي	150643
+الزلفى	150643
+Al-Zulfi	150643
+العربي	150639	135946
+العربى	150639	135946
+العربي القطري	135946
+العين	137832
+al	-
+El	-
+السعودية	136137
+منتخب السعودية	136137
+Saudi Arabia	136137
+saudi arabia national	-
+Real Madrid	133738
+real madrid cf	133738
+ريال مدريد	133738
+Atletico Madrid	133729
+atlético madrid	133729
+ATLÉTICO	133729
+Madrid	-	133729,133738
+Man City	133613		133612
+Manchester	-	133613,133612
+bayern	133664
+بايرن	133664
+بايرن ميونخ	133664
+Inter Milan	133681
+إنتر ميلان	133681
+Inter	133681	137699
+Barcelona	133739
+برشلونة	133739
+Fenerbahce	133807
+Fenerbahçe	133807
+Besiktas	133794
+Borussia Monchengladbach	134779
+Mönchengladbach	134779
+Sporting	-	135708,134143
+Paris	-	133714
+Arsenal	133604
+آرسنال	133604
+ارسنال	133604
+egypt	136138
+مصر	136138
+brazil	134496
+البرازيل	134496
+USA	134514
+# nothing, or nothing sensible: no results and no crash
+	-
+   	-
+!!	-
+ا	-
+x	-
+ال	-
+fc	-
+Zzzzzzqx	-
+😀	-

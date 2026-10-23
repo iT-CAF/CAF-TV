@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'sa.urtv.home'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'sa.urtv.home'
+        minSdk 26
+        targetSdk 30   // Android 11 TVs only show the Wi-Fi name to apps targeting 30 with location granted
+        // the same version as the screensaver (see android/app/build.gradle)
+        versionCode((System.getenv('GITHUB_RUN_NUMBER') ?: '1') as int)
+        versionName "3.${System.getenv('GITHUB_RUN_NUMBER') ?: '0'}"
+    }
+
+    signingConfigs {
+        // the key lives only in the repository's secrets (made with .github/tools/make_signing_key.py) and CI refuses
+        // to build without it; a local build without ANDROID_KEYSTORE gets the debug key, so it can't update the TV's apps
+        if (System.getenv('ANDROID_KEYSTORE')) {
+            release {
+                storeFile file(System.getenv('ANDROID_KEYSTORE'))
+                storePassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+                keyAlias 'caftv'
+                keyPassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.findByName('release') ?: signingConfigs.debug
+        }
+    }
+
+    // wallpapers are the screensaver's Saudi photos, copied in at build time
+    sourceSets {
+        main { assets.srcDirs += ["$buildDir/generated/wallpapers", "$buildDir/generated/web"] }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint { abortOnError false }
+}
+
+def copyWallpapers = tasks.register('copyWallpapers', Copy) {
+    from('../../assets/backgrounds') { include '*.jpg' }
+    into "$buildDir/generated/wallpapers/wallpapers"
+}
+preBuild.dependsOn copyWallpapers
+
+// the optional home-screen card is the screensaver's page in card-only mode, with its woff2 fonts
+def copyWeb = tasks.register('copyWeb', Copy) {
+    from('../../dist') { include 'tv.html'; into 'web' }
+    from('../../assets/fonts') { include '*.woff2'; into 'fonts' }
+    into "$buildDir/generated/web"
+}
+preBuild.dependsOn copyWeb

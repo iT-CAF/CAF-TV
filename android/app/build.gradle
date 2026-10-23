@@ -1,0 +1,54 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'sa.urtv.screensaver'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'sa.urtv.screensaver'
+        minSdk 21
+        targetSdk 34
+        // CI passes its run number so every build installs over the previous one; 3.x since the new signing key,
+        // the same number as the home app and as the release (v3.N)
+        versionCode((System.getenv('GITHUB_RUN_NUMBER') ?: '1') as int)
+        versionName "3.${System.getenv('GITHUB_RUN_NUMBER') ?: '0'}"
+        // the branch the page, fonts and photos are fetched from: CI passes the one it builds, a local build follows master
+        buildConfigField "String", "BRANCH", "\"${System.getenv('URTV_BRANCH') ?: 'master'}\""
+    }
+
+    buildFeatures {
+        buildConfig true   // off by default since AGP 8
+    }
+
+    signingConfigs {
+        // the key lives only in the repository's secrets (made with .github/tools/make_signing_key.py) and CI refuses
+        // to build without it; a local build without ANDROID_KEYSTORE gets the debug key, so it can't update the TV's apps
+        if (System.getenv('ANDROID_KEYSTORE')) {
+            release {
+                storeFile file(System.getenv('ANDROID_KEYSTORE'))
+                storePassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+                keyAlias 'caftv'
+                keyPassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.findByName('release') ?: signingConfigs.debug
+        }
+    }
+
+    // the page is built by ../../src/build.py into dist/
+    sourceSets {
+        main { assets.srcDirs = ['../../dist', '../launcher/src/main/assets', '../../assets'] }   // page, Thmanyah fonts, backgrounds/, shared/ (the club lists)
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

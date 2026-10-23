@@ -1,0 +1,28 @@
+name: Fetch photos
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['.github/tools/fetch_photos.py', '.github/tools/unsplash-picks.json']
+
+permissions:
+  contents: write
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/tools/fetch_photos.py
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+      - name: Push to photos-raw
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan photos-raw
+          git rm -rfq --cached .
+          git add photos
+          git commit -qm "Unsplash photos, 1920x1080"
+          git push -f origin photos-raw

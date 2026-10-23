@@ -1,0 +1,28 @@
+name: Verify hadith against the six books
+
+# The hadith collections are unreachable from the dev container; CI checks each hadith
+# and pushes the report to the data-hadith branch for review.
+on:
+  workflow_dispatch:
+  push:
+    branches: [master, content]
+    paths: ['.github/tools/verify_hadith.py', 'assets/shared/hadith.json']
+
+permissions:
+  contents: write
+
+jobs:
+  hadith:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/tools/verify_hadith.py
+      - name: Push to data-hadith
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan data-hadith
+          git rm -rfq --cached .
+          git add -f hadith   # the folder is in .gitignore for local runs
+          git commit -qm "Hadith check against the six books"
+          git push -f origin data-hadith

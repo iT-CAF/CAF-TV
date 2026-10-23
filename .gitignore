@@ -1,0 +1,23 @@
+*.apk
+__pycache__/
+node_modules/
+android/.gradle/
+android/build/
+android/*/build/
+android/local.properties
+optimize/venv/
+optimize/adbkey/
+optimize/.tv_host
+optimize/backup-*.txt
+optimize/run/
+optimize/run-*/
+optimize/lists/mine.txt
+*.p12
+*.jks
+*.keystore
+
+# written when the CI tools in .github/tools are run locally (the workflows push these to data-* branches)
+/teams/
+/hadith/
+/verses/
+/unsplash/

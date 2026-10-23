@@ -1,0 +1,96 @@
+name: Clubs and their ids
+
+# TheSportsDB, Wikidata and Wikipedia are unreachable from the dev container; CI lists every club of the app's
+# leagues and the national teams, with their ids and Arabic names, in data-team-ids-<branch> for review
+# (teams/teams.json, teams/diff.md: added, removed and renamed since assets/shared/teams.json, teams/report.json).
+# One runner per league and one for the national teams, side by side (each has its own share of TheSportsDB's rate
+# limit), then one merges them, adds the Arabic names and runs every check. Monthly too, for promoted and renamed
+# clubs: that run checks every team again; a push checks only new and renamed ones (.github/tools/teams-cache.json).
+# The data is pushed even when a check fails, and the job then goes red, naming the league.
+# One data branch per source branch (data-team-ids-master, data-team-ids-next), so runs on both never overwrite each other.
+on:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Check every team again, not only new and renamed ones'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 3 1 * *'
+  push:
+    branches: [master, next]
+    paths:
+      - '.github/tools/team_ids.py'
+      - '.github/tools/saudi-clubs-ar.json'
+      - '.github/tools/teams-cache.json'
+      - '.github/workflows/team-ids.yml'
+      - 'assets/shared/teams-ar.json'
+      - 'android/app/src/main/java/sa/urtv/screensaver/Prefs.java'
+
+permissions:
+  contents: write
+
+concurrency:   # one run per branch: a newer push replaces the run in progress
+  group: team-ids-${{ github.ref }}
+  cancel-in-progress: true
+
+env:   # the monthly run checks everything again; a push checks only new and renamed teams
+  RUN_FULL: ${{ (github.event_name == 'schedule' || inputs.full) && '1' || '0' }}
+
+jobs:
+  plan:   # the parts, read from Prefs.LEAGUES: the workflow never lists the leagues itself
+    runs-on: ubuntu-latest
+    outputs:
+      parts: ${{ steps.plan.outputs.parts }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        run: echo "parts=$(python3 .github/tools/team_ids.py plan)" >> "$GITHUB_OUTPUT"
+
+  collect:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        part: ${{ fromJSON(needs.plan.outputs.parts) }}
+    name: collect ${{ matrix.part.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -u .github/tools/team_ids.py collect --part "${{ matrix.part.name }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: part-${{ matrix.part.slug }}
+          path: teams/parts/
+          if-no-files-found: warn
+
+  merge:
+    needs: collect
+    if: always() && needs.collect.result != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: teams/parts
+          merge-multiple: true
+      - id: merge
+        run: python3 -u .github/tools/team_ids.py merge
+        continue-on-error: true
+      - name: Push to data-team-ids-${{ github.ref_name }}
+        run: |
+          test -f teams/teams.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan "data-team-ids-$GITHUB_REF_NAME"
+          git rm -rfq --cached .
+          git add -f teams   # -f: .gitignore keeps a local run's teams/ out of commits
+          git commit -qm "Clubs and national teams with their TheSportsDB ids"
+          git push -f origin "data-team-ids-$GITHUB_REF_NAME"
+      - name: Fail if a check failed (the merge step's log names the league)
+        if: steps.merge.outcome != 'success'
+        run: exit 1

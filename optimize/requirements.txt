@@ -1,0 +1,5 @@
+adb-shell
+rsa
+cryptography
+certifi
+pillow
