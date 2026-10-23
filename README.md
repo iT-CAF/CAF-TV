@@ -1,89 +1,187 @@
 <p align="center"><img src=".github/brand/hero.gif" alt="كاف TV · CAF TV" width="100%"></p>
 
-<p align="center" dir="rtl">واجهة رئيسية عربية وشاشة توقف سعودية لتلفزيونات Android TV و Google TV، وتسريع آمن للتلفزيون.<br>يركّبها لك مساعد ذكاء اصطناعي بأمر واحد.</p>
+<p align="center" dir="rtl"><b>واجهة رئيسية عربية وشاشة توقّف سعودية لأجهزة Android TV و Google TV، مع تسريع آمن للتلفزيون — يركّبها لك مساعد ذكاء اصطناعي بأمر واحد.</b></p>
 
-<p align="center">An Arabic home screen and a Saudi screensaver for Android TV / Google TV, and a safe speed-up.<br>Your AI agent sets it all up.</p>
+<p align="center"><b>An Arabic home screen and a Saudi screensaver for Android TV / Google TV, with a safe speed-up — installed for you by an AI coding agent with a single prompt.</b></p>
 
 <p align="center"><img src=".github/brand/screens.gif" alt="شاشة كاف: مواقيت الصلاة، الطقس، المباريات، آية اليوم" width="100%"></p>
 
 <p align="center"><img src=".github/brand/steps.gif" alt="التركيب في 3 خطوات" width="100%"></p>
 
+<p align="center"><a href="#العربية">العربية</a> · <a href="#english">English</a></p>
+
+---
+
+<a id="العربية"></a>
 <div dir="rtl">
 
-## ركّبه في 3 خطوات
+## 🇸🇦 التثبيت في 3 خطوات
 
-### ① التلفزيون
-الإعدادات ← حول ← اضغط OK على **Build** سبع مرات. بعدها روح إلى **خيارات المطوّر** ← شغّل **USB debugging**.
+### الخطوة 1 — جهّز التلفزيون
 
-### ② كمبيوتر على نفس الواي فاي، وعليه واحد من هذي
+1. افتح **الإعدادات ← حول (About)**.
+2. اضغط زر **OK** على خيار **Build** سبع مرات متتالية حتى تظهر رسالة «أصبحت مطوّرًا».
+3. ارجع إلى **خيارات المطوّر (Developer options)** وفعّل **USB debugging**.
 
-| **Codex** (OpenAI) | **Claude Code** (Anthropic) |
-|---|---|
-| مجاني بحساب ChatGPT | يحتاج اشتراك Claude Pro (20$ بالشهر) |
-| حمّل تطبيق Codex | حمّل تطبيق Claude ← تبويب **Code** |
-| الموافقات: اختر **«Approve for me»** | الموافقات: **Allow** للمهمة كلها |
+> تأكّد أن التلفزيون والكمبيوتر متصلان **بنفس شبكة الواي فاي**.
 
-<sub>ويندوز: ركّب Git وPython أول (`winget install Git.Git Python.Python.3.12`). Gemini CLI مجاني وناس قالوا يشتغل؛ ما جرّبناه.</sub>
+### الخطوة 2 — اختر مساعد الذكاء الاصطناعي على الكمبيوتر
 
-### ③ الصق هذا
+| | **Claude Code** (Anthropic) ⭐ | **Codex** (OpenAI) |
+|---|---|---|
+| **التكلفة** | ضمن اشتراك Claude Pro أو Max | مجاني بحساب ChatGPT |
+| **التحميل** | تطبيق Claude ← تبويب **Code**، أو من الطرفية | تطبيق Codex |
+| **الصلاحيات** | اسمح للمهمة كاملة (انظر الشرح بالأسفل) | اختر «Approve for me» |
 
-> ركّب تلفزيوني من https://github.com/DHME1/CAF-TV: انسخ المستودع واتبع `docs/SETUP-PROMPT.md` خطوة بخطوة. أنت على كمبيوتر متصل بنفس شبكة الواي فاي حقت التلفزيون.
+#### الطريقة (أ): Claude Code — موصى بها
 
-#### وش يصير بعد اللصق؟
-يسألك عن **مدينتك** و**أنديتك**، والتلفزيون يسألك **Allow** مرة وحدة، وبعدها خلّه يشتغل: 40 دقيقة وكم إعادة تشغيل.
+**من تطبيق Claude (الأسهل):**
+1. حمّل تطبيق Claude من [claude.ai/download](https://claude.ai/download) وسجّل الدخول.
+2. افتح تبويب **Code** واختر مجلدًا فارغًا للعمل.
+3. الصق الأمر الموجود في الخطوة 3.
+4. عندما يطلب الإذن، اختر السماح للمهمة كلها حتى لا يتوقف أثناء التثبيت.
 
-#### بترجعه مثل ما كان؟
-نعم، بأي وقت: تطبيقاتنا تنحذف، واللي أطفأناه يرجع، وشاشة التلفزيون الأصلية ترجع.
-<sub>`optimize/reset.sh`</sub>
+**أو من الطرفية (Terminal):**
 
-#### نزلت نسخة جديدة؟
-حدّث التطبيقين وإعداداتك كلها باقية. الشاشة نفسها تتحدّث لحالها. وصف «تحديث الشاشة الآن» في الإعدادات يخبرك متى يوجد إصدار جديد.
-<sub>`optimize/install.sh all`</sub>
+```bash
+# ماك / لينكس
+curl -fsSL https://claude.ai/install.sh | bash
 
-#### نزل تحديث للنظام وقفل تطبيقنا؟
-أعد الإعداد كله بأمر واحد، وإعداداتك باقية.
-<sub>`optimize/run.sh again`</sub>
+# ثم افتح مجلدًا فارغًا وشغّل:
+mkdir caf-tv && cd caf-tv
+claude
+```
+
+بعد التشغيل الصق الأمر من الخطوة 3. عند كل طلب إذن اختر **«Yes, and don't ask again»** للسماح بالأوامر المتكررة طوال الجلسة.
+
+#### الطريقة (ب): Codex
+
+1. حمّل تطبيق Codex وسجّل الدخول بحساب ChatGPT.
+2. من الصلاحيات اختر **«Approve for me»**.
+3. الصق الأمر من الخطوة 3.
+
+> **مستخدمو ويندوز:** ركّبوا Git و Python أولًا:
+> ```
+> winget install Git.Git Python.Python.3.12
+> ```
+> Gemini CLI مجاني وأفاد بعض المستخدمين أنه يعمل، لكننا لم نختبره.
+
+### الخطوة 3 — الصق هذا الأمر في المساعد
+
+```text
+ركّب تلفزيوني من https://github.com/iT-CAF/CAF-TV: انسخ المستودع واتبع docs/SETUP-PROMPT.md خطوة بخطوة. أنت على كمبيوتر متصل بنفس شبكة الواي فاي حقت التلفزيون.
+```
+
+### ماذا يحدث بعد ذلك؟
+
+- يسألك المساعد عن **مدينتك** و**أنديتك المفضّلة**.
+- يظهر على التلفزيون طلب **Allow** — وافق عليه مرة واحدة فقط.
+- اترك المساعد يعمل: حوالي **40 دقيقة** مع عدة إعادات تشغيل للتلفزيون.
+
+## ❓ أسئلة شائعة
+
+| السؤال | الجواب | الأمر |
+|---|---|---|
+| أقدر أرجّع التلفزيون كما كان؟ | نعم، بأي وقت: تُحذف تطبيقاتنا، ويعود كل ما أطفأناه، وترجع الواجهة الأصلية. | `optimize/reset.sh` |
+| نزل إصدار جديد؟ | حدّث التطبيقين وتبقى إعداداتك كما هي. الشاشة نفسها تتحدّث تلقائيًا، وخيار «تحديث الشاشة الآن» في الإعدادات ينبّهك عند وجود إصدار جديد. | `optimize/install.sh all` |
+| تحديث النظام أوقف التطبيق؟ | أعد الإعداد كاملًا بأمر واحد، وتبقى إعداداتك محفوظة. | `optimize/run.sh again` |
+
+> 💡 لا تحفظ الأوامر — قل للمساعد ببساطة: «رجّع التلفزيون كما كان» أو «حدّث كاف TV» وهو ينفّذ الأمر المناسب.
+
+### 🔒 الأمان
+
+- لا يُحذف أي تطبيق من النظام.
+- لا نلمس **AirPlay** أو **Chromecast** أو **المساعد الصوتي** إطلاقًا.
+- **مفتاح أمان لمدة 5 دقائق** يعيد الواجهة الأصلية تلقائيًا إذا لم تعمل واجهتنا.
+- التطبيقات تُبنى وتُوقَّع عبر GitHub Actions من هذا المستودع مباشرة.
 
 </div>
 
-## Set it up in 3 steps
+---
 
-### ① The TV
-Settings → About → press OK on **Build** 7 times. Then go to **Developer options** → turn on **USB debugging**.
+<a id="english"></a>
 
-### ② A computer on the same Wi-Fi, with one of these
+## 🇬🇧 Install in 3 steps
 
-| **Codex** (OpenAI) | **Claude Code** (Anthropic) |
-|---|---|
-| Free with a ChatGPT account | Needs Claude Pro ($20/month) |
-| Download the Codex app | Download the Claude app → **Code** tab |
-| Approvals: choose **«Approve for me»** | Approvals: **Allow** for the whole task |
+### Step 1 — Prepare the TV
 
-<sub>Windows: install Git and Python first (`winget install Git.Git Python.Python.3.12`). Gemini CLI is free and reported to work; not tested by us.</sub>
+1. Open **Settings → About**.
+2. Press **OK** on **Build** seven times until you see "You are now a developer".
+3. Go to **Developer options** and turn on **USB debugging**.
 
-### ③ Paste this
+> Make sure the TV and your computer are on **the same Wi-Fi network**.
 
-> Set up my TV with https://github.com/DHME1/CAF-TV: clone it and follow `docs/SETUP-PROMPT.md` step by step. You are on a computer on the same Wi-Fi as the TV.
+### Step 2 — Pick an AI agent on your computer
 
-#### What happens after pasting?
-It asks your **city** and your **clubs**, the TV asks **Allow** once, then leave it: 40 minutes, a few restarts.
+| | **Claude Code** (Anthropic) ⭐ | **Codex** (OpenAI) |
+|---|---|---|
+| **Cost** | Included with Claude Pro or Max | Free with a ChatGPT account |
+| **Get it** | Claude app → **Code** tab, or the terminal | Codex app |
+| **Approvals** | Allow for the whole task (see below) | Choose «Approve for me» |
 
-#### Can I put it back as it was?
-Yes, anytime: our apps are removed, what we turned off comes back on, the TV's own screen returns.
-<sub>`optimize/reset.sh`</sub>
+#### Option A: Claude Code — recommended
 
-#### A new version came out?
-Update both apps; all your settings stay. The screen itself updates on its own. The settings row tells you when one exists.
-<sub>`optimize/install.sh all`</sub>
+**From the Claude app (easiest):**
+1. Download the Claude app from [claude.ai/download](https://claude.ai/download) and sign in.
+2. Open the **Code** tab and choose an empty working folder.
+3. Paste the prompt from Step 3.
+4. When asked for permission, allow it for the whole task so the setup doesn't pause midway.
 
-#### The TV updated its system and locked our app out?
-Redo the whole setup with one command, settings kept.
-<sub>`optimize/run.sh again`</sub>
+**Or from the terminal:**
 
-**Safe:** nothing is uninstalled; AirPlay, Chromecast and voice are never touched; a 5-minute safety switch puts the
-stock home back if ours doesn't come up. The apps are built and signed by GitHub Actions from this repo (version
-3.N = the build number). The full prompt: [docs/SETUP-PROMPT.md](docs/SETUP-PROMPT.md). To build a different
-screen: [docs/RECREATE-PROMPT.md](docs/RECREATE-PROMPT.md).
+```bash
+# macOS / Linux
+curl -fsSL https://claude.ai/install.sh | bash
+
+# then open an empty folder and run:
+mkdir caf-tv && cd caf-tv
+claude
+```
+
+Paste the prompt from Step 3. On each permission prompt, choose **"Yes, and don't ask again"** so repeated commands run without stopping.
+
+#### Option B: Codex
+
+1. Download the Codex app and sign in with your ChatGPT account.
+2. Under approvals, choose **«Approve for me»**.
+3. Paste the prompt from Step 3.
+
+> **Windows users:** install Git and Python first:
+> ```
+> winget install Git.Git Python.Python.3.12
+> ```
+> Gemini CLI is free and reported to work, but we haven't tested it.
+
+### Step 3 — Paste this prompt into the agent
+
+```text
+Set up my TV with https://github.com/iT-CAF/CAF-TV: clone it and follow docs/SETUP-PROMPT.md step by step. You are on a computer on the same Wi-Fi as the TV.
+```
+
+### What happens next?
+
+- The agent asks for your **city** and your **favourite clubs**.
+- The TV shows an **Allow** prompt — accept it once.
+- Let it run: about **40 minutes**, with a few TV restarts.
+
+## ❓ FAQ
+
+| Question | Answer | Command |
+|---|---|---|
+| Can I undo everything? | Yes, anytime: our apps are removed, everything we turned off comes back, and the original home screen returns. | `optimize/reset.sh` |
+| A new version is out? | Update both apps; all your settings stay. The screen updates itself, and the «Update screen now» row in settings tells you when a new version exists. | `optimize/install.sh all` |
+| A TV system update locked our app out? | Redo the whole setup with one command, settings kept. | `optimize/run.sh again` |
+
+> 💡 No need to memorise commands — just tell your agent "put my TV back to stock" or "update CAF TV" and it runs the right one.
+
+### 🔒 Safety
+
+- Nothing is uninstalled from the system.
+- **AirPlay**, **Chromecast** and **voice** are never touched.
+- A **5-minute safety switch** restores the stock home screen if ours doesn't come up.
+- Apps are built and signed by GitHub Actions directly from this repo (version 3.N = build number).
+
+Full prompt: [docs/SETUP-PROMPT.md](docs/SETUP-PROMPT.md) · Build a different screen: [docs/RECREATE-PROMPT.md](docs/RECREATE-PROMPT.md)
 
 ## What you get
 
@@ -94,7 +192,7 @@ screen: [docs/RECREATE-PROMPT.md](docs/RECREATE-PROMPT.md).
 | **Two free apps** | [TV Bro](https://github.com/truefedex/tv-bro), a web browser for the TV, and [SmartTube](https://github.com/yuliskov/SmartTube), YouTube without ads, from their own releases (skip with `SKIP_EXTRAS=1`) | `optimize/install.sh extras` |
 | **Speed-up** | Telemetry, ads and demos off (reversibly), closed apps frozen, Play Store kept from running in the background, faster animations | `optimize/` |
 
-**Download the apps yourself:** [releases/apk-latest](https://github.com/DHME1/CAF-TV/releases/tag/apk-latest)
+**Download the apps yourself:** [releases/apk-latest](https://github.com/iT-CAF/CAF-TV/releases/tag/apk-latest)
 (install with `adb install`; the agent route above also sets everything up).
 Every build is also kept as a numbered release (`v3.N`, the apps' version), to go back to one:
 `APK_TAG=v3.N optimize/install.sh all`.
@@ -121,18 +219,18 @@ What we learned on real TCL sets, and what must stay on: [docs/OPTIMIZE.md](docs
 ## For developers
 
 ```
-src/template.html     the screen (HTML/CSS/JS, no framework); edit this, then run src/build.py
-src/build.py          builds the two pages in dist/
-dist/caftv.html        stand-alone page, fonts and photos inlined: open in any browser (F = full screen), works offline
-dist/tv.html          light page the Android app loads (0.3 MB); the app serves fonts and photos from disk
-android/app           the screensaver app (sa.urtv.screensaver): DreamService, settings, auto-update
-android/launcher      the home screen (sa.urtv.home)
-assets/               fonts, bundled photos, Arabic team names, verse and hadith texts
-photos/               the hosted photo set (5 shown per 4 days, rotating every 30 min)
-optimize/             TV tools (Python ADB client, no adb binary needed); lists/ says what may be turned off
-docs/                 the agent prompts (setup, recreate), what we learned on real TVs, test plan, photo credits
-.github/              CI: APK builds, checks, data tools (verses, hadith, clubs, photos), README images
-tests/run.sh          every check: build, data, fonts, scripts, private data, flaky-ADB upload, the screen in a browser
+src/template.html the screen (HTML/CSS/JS, no framework); edit this, then run src/build.py
+src/build.py builds the two pages in dist/
+dist/caftv.html stand-alone page, fonts and photos inlined: open in any browser (F = full screen), works offline
+dist/tv.html light page the Android app loads (0.3 MB); the app serves fonts and photos from disk
+android/app the screensaver app (sa.urtv.screensaver): DreamService, settings, auto-update
+android/launcher the home screen (sa.urtv.home)
+assets/ fonts, bundled photos, Arabic team names, verse and hadith texts
+photos/ the hosted photo set (5 shown per 4 days, rotating every 30 min)
+optimize/ TV tools (Python ADB client, no adb binary needed); lists/ says what may be turned off
+docs/ the agent prompts (setup, recreate), what we learned on real TVs, test plan, photo credits
+.github/ CI: APK builds, checks, data tools (verses, hadith, clubs, photos), README images
+tests/run.sh every check: build, data, fonts, scripts, private data, flaky-ADB upload, the screen in a browser
 ```
 
 A push to `master` builds both APKs in GitHub Actions and publishes them to `apk-latest` and a numbered `v3.N`
