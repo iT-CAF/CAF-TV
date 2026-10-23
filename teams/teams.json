@@ -1,0 +1,3648 @@
+[
+ {
+  "id": "137855",
+  "en": "Abha",
+  "ar": "أبها",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League",
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137721",
+  "en": "Al-Ahli",
+  "ar": "الأهلي",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "152917",
+  "en": "Al-Diriyah",
+  "ar": "الدرعية",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League",
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136017",
+  "en": "Al-Ettifaq",
+  "ar": "الاتفاق",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136021",
+  "en": "Al-Faisaly",
+  "ar": "الفيصلي",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League",
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136011",
+  "en": "Al-Fateh",
+  "ar": "الفتح",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136014",
+  "en": "Al-Fayha",
+  "ar": "الفيحاء",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136200",
+  "en": "Al-Hazem",
+  "ar": "الحزم",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136013",
+  "en": "Al-Hilal",
+  "ar": "الهلال",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": [
+   "Al Hilal SFC"
+  ]
+ },
+ {
+  "id": "136018",
+  "en": "Al-Ittihad",
+  "ar": "الاتحاد",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139080",
+  "en": "Al-Khaleej",
+  "ar": "الخليج",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "149112",
+  "en": "Al-Kholood",
+  "ar": "الخلود",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150638",
+  "en": "Al-Najma Unaizah",
+  "ar": "النجمة",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League",
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136022",
+  "en": "Al-Nassr",
+  "ar": "النصر",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "147444",
+  "en": "Al-Okhdood",
+  "ar": "الأخدود",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League",
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136015",
+  "en": "Al-Qadsiah",
+  "ar": "القادسية",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "147445",
+  "en": "Al-Riyadh",
+  "ar": "الرياض",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136020",
+  "en": "Al-Shabab",
+  "ar": "الشباب",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": [
+   "Al-Shabab Football Club"
+  ]
+ },
+ {
+  "id": "136012",
+  "en": "Al-Taawoun",
+  "ar": "التعاون",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137852",
+  "en": "Damac",
+  "ar": "ضمك",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League",
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150637",
+  "en": "Neom",
+  "ar": "نيوم",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi-Arabian Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137854",
+  "en": "Al-Adalah",
+  "ar": "العدالة",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "152918",
+  "en": "Al-Anwar",
+  "ar": "الأنوار",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150639",
+  "en": "Al-Arabi Al-Saudi",
+  "ar": "العربي",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136019",
+  "en": "Al-Batin",
+  "ar": "الباطن",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150640",
+  "en": "Al-Bukiryah",
+  "ar": "البكيرية",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150091",
+  "en": "Al-Jabalain",
+  "ar": "الجبلين",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150644",
+  "en": "Al-Jandal",
+  "ar": "الجندل",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "156331",
+  "en": "Al-Jeel",
+  "ar": "الجيل",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150645",
+  "en": "Al-Jubail",
+  "ar": "الجبيل",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "149111",
+  "en": "Al-Orobah",
+  "ar": "العروبة",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": [
+   "Al-Orobah F.C."
+  ]
+ },
+ {
+  "id": "136016",
+  "en": "Al-Raed",
+  "ar": "الرائد",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "156329",
+  "en": "Al-Saqer",
+  "ar": "الصقر",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": [
+   "Al-Saqer Football Club"
+  ]
+ },
+ {
+  "id": "143173",
+  "en": "Al-Tai",
+  "ar": "الطائي",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "152473",
+  "en": "Al-Ula",
+  "ar": "العلا",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136199",
+  "en": "Al-Wehda",
+  "ar": "الوحدة",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150643",
+  "en": "Al-Zulfi",
+  "ar": "الزلفي",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "156330",
+  "en": "Hajer",
+  "ar": "هجر",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": [
+   "Hajer Football Club"
+  ]
+ },
+ {
+  "id": "150641",
+  "en": "Jeddah Club",
+  "ar": "جدة",
+  "arFrom": "curated",
+  "leagues": [
+   "Saudi First Division League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133604",
+  "en": "Arsenal",
+  "ar": "آرسنال",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Arsenal F.C."
+  ]
+ },
+ {
+  "id": "133601",
+  "en": "Aston Villa",
+  "ar": "أستون فيلا",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Aston Villa F.C."
+  ]
+ },
+ {
+  "id": "134301",
+  "en": "Bournemouth",
+  "ar": "بورنموث",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Bournemouth F.C."
+  ]
+ },
+ {
+  "id": "134355",
+  "en": "Brentford",
+  "ar": "برينتفورد",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Brentford F.C."
+  ]
+ },
+ {
+  "id": "133619",
+  "en": "Brighton and Hove Albion",
+  "ar": "برايتون",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Brighton & Hove Albion F.C."
+  ]
+ },
+ {
+  "id": "133623",
+  "en": "Burnley",
+  "ar": "بيرنلي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Burnley F.C."
+  ]
+ },
+ {
+  "id": "133610",
+  "en": "Chelsea",
+  "ar": "تشيلسي",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Chelsea F.C."
+  ]
+ },
+ {
+  "id": "133625",
+  "en": "Coventry City",
+  "ar": "كوفنتري سيتي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Coventry City F.C."
+  ]
+ },
+ {
+  "id": "133632",
+  "en": "Crystal Palace",
+  "ar": "كريستال بالاس",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Crystal Palace F.C."
+  ]
+ },
+ {
+  "id": "133615",
+  "en": "Everton",
+  "ar": "إيفرتون",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Everton F.C."
+  ]
+ },
+ {
+  "id": "133600",
+  "en": "Fulham",
+  "ar": "فولهام",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Fulham F.C."
+  ]
+ },
+ {
+  "id": "133617",
+  "en": "Hull City",
+  "ar": "هال سيتي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Hull City Association Football Club",
+   "HCAFC",
+   "Hull City A.F.C."
+  ]
+ },
+ {
+  "id": "133622",
+  "en": "Ipswich Town",
+  "ar": "إيبسويتش تاون",
+  "arFrom": "wikidata",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Ipswich Town Football Club",
+   "Ipswich Town F.C."
+  ]
+ },
+ {
+  "id": "133635",
+  "en": "Leeds United",
+  "ar": "ليدز يونايتد",
+  "arFrom": "wikidata",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Leeds United F.C."
+  ]
+ },
+ {
+  "id": "133602",
+  "en": "Liverpool",
+  "ar": "ليفربول",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Liverpool F.C."
+  ]
+ },
+ {
+  "id": "133613",
+  "en": "Manchester City",
+  "ar": "مانشستر سيتي",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Manchester City F.C."
+  ]
+ },
+ {
+  "id": "133612",
+  "en": "Manchester United",
+  "ar": "مانشستر يونايتد",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Manchester United F.C."
+  ]
+ },
+ {
+  "id": "134777",
+  "en": "Newcastle United",
+  "ar": "نيوكاسل",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Newcastle United F.C."
+  ]
+ },
+ {
+  "id": "133720",
+  "en": "Nottingham Forest",
+  "ar": "نوتنغهام فورست",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Nottingham Forest F.C."
+  ]
+ },
+ {
+  "id": "133603",
+  "en": "Sunderland",
+  "ar": "سندرلاند",
+  "arFrom": "wikidata",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Sunderland A.F.C."
+  ]
+ },
+ {
+  "id": "133616",
+  "en": "Tottenham Hotspur",
+  "ar": "توتنهام",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Tottenham Hotspur F.C."
+  ]
+ },
+ {
+  "id": "133636",
+  "en": "West Ham United",
+  "ar": "وست هام",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "West Ham United F.C."
+  ]
+ },
+ {
+  "id": "133599",
+  "en": "Wolverhampton Wanderers",
+  "ar": "وولفرهامبتون",
+  "arFrom": "curated",
+  "leagues": [
+   "English Premier League"
+  ],
+  "alt": [
+   "Wolverhampton Wanderers F.C."
+  ]
+ },
+ {
+  "id": "133727",
+  "en": "Athletic Bilbao",
+  "ar": "أتلتيك بلباو",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "Athletic Club"
+  ]
+ },
+ {
+  "id": "133729",
+  "en": "Atlético Madrid",
+  "ar": "أتلتيكو مدريد",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133739",
+  "en": "Barcelona",
+  "ar": "برشلونة",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133937",
+  "en": "Celta Vigo",
+  "ar": "سيلتا فيغو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "RC Celta de Vigo"
+  ]
+ },
+ {
+  "id": "134221",
+  "en": "Deportivo Alavés",
+  "ar": "ديبورتيفو ألافيس",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133816",
+  "en": "Deportivo de A Coruña",
+  "ar": "ديبورتيفو لاكورونيا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "Real Club Deportivo de A Coruña",
+   "Deportivo de La Coruña",
+   "Deportivo da Coruña",
+   "Deportivo La Coruña"
+  ]
+ },
+ {
+  "id": "134384",
+  "en": "Elche",
+  "ar": "إلتشي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133734",
+  "en": "Espanyol",
+  "ar": "إسبانيول",
+  "arFrom": "translit",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133731",
+  "en": "Getafe",
+  "ar": "خيتافي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134700",
+  "en": "Girona",
+  "ar": "جيرونا",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133732",
+  "en": "Levante",
+  "ar": "ليفانتي اف سي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133733",
+  "en": "Mallorca",
+  "ar": "مايوركا",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133736",
+  "en": "Málaga",
+  "ar": "ملقا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "Málaga Club de Fútbol"
+  ]
+ },
+ {
+  "id": "133730",
+  "en": "Osasuna",
+  "ar": "أوساسونا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "Club Atlético Osasuna"
+  ]
+ },
+ {
+  "id": "133726",
+  "en": "Racing de Santander",
+  "ar": "راسينغ سانتاندير",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "Real Racing Club de Santander",
+   "Racing Santander"
+  ]
+ },
+ {
+  "id": "133728",
+  "en": "Rayo Vallecano",
+  "ar": "رايو فايكانو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133722",
+  "en": "Real Betis",
+  "ar": "ريال بيتيس",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "Real Betis Balompié"
+  ]
+ },
+ {
+  "id": "133738",
+  "en": "Real Madrid",
+  "ar": "ريال مدريد",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": [
+   "Real Madrid Club de Fútbol"
+  ]
+ },
+ {
+  "id": "135455",
+  "en": "Real Oviedo",
+  "ar": "ريال أوفييدو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133724",
+  "en": "Real Sociedad",
+  "ar": "ريال سوسيداد",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133735",
+  "en": "Sevilla",
+  "ar": "إشبيلية",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133725",
+  "en": "Valencia",
+  "ar": "فالنسيا",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133740",
+  "en": "Villarreal",
+  "ar": "فياريال",
+  "arFrom": "curated",
+  "leagues": [
+   "Spanish La Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133667",
+  "en": "AC Milan",
+  "ar": "ميلان",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134782",
+  "en": "Atalanta",
+  "ar": "أتالانتا",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134781",
+  "en": "Bologna",
+  "ar": "بولونيا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "Bologna F.C. 1909"
+  ]
+ },
+ {
+  "id": "134783",
+  "en": "Cagliari",
+  "ar": "كلياري",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "Cagliari Calcio"
+  ]
+ },
+ {
+  "id": "134243",
+  "en": "Como",
+  "ar": "كومو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "Como 1907"
+  ]
+ },
+ {
+  "id": "134224",
+  "en": "Cremonese",
+  "ar": "كريمونيزي",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133674",
+  "en": "Fiorentina",
+  "ar": "فيورنتينا",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "ACF Fiorentina"
+  ]
+ },
+ {
+  "id": "133818",
+  "en": "Frosinone",
+  "ar": "فروزينوني",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "Frosinone Calcio"
+  ]
+ },
+ {
+  "id": "133675",
+  "en": "Genoa",
+  "ar": "جنوى",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134784",
+  "en": "Hellas Verona",
+  "ar": "إيلاس فيرونا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133681",
+  "en": "Inter Milan",
+  "ar": "إنتر ميلان",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133676",
+  "en": "Juventus",
+  "ar": "يوفنتوس",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133668",
+  "en": "Lazio",
+  "ar": "لاتسيو",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "SS Lazio"
+  ]
+ },
+ {
+  "id": "133678",
+  "en": "Lecce",
+  "ar": "ليتشي",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134270",
+  "en": "Monza",
+  "ar": "مونزا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "AC Monza"
+  ]
+ },
+ {
+  "id": "133670",
+  "en": "Napoli",
+  "ar": "نابولي",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "SSC Napoli"
+  ]
+ },
+ {
+  "id": "135728",
+  "en": "Parma",
+  "ar": "بارما",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "Parma Calcio 1913"
+  ]
+ },
+ {
+  "id": "133859",
+  "en": "Pisa",
+  "ar": "بيزا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133682",
+  "en": "Roma",
+  "ar": "روما",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "AS Roma"
+  ]
+ },
+ {
+  "id": "133701",
+  "en": "Sassuolo",
+  "ar": "ساسولو",
+  "arFrom": "curated",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133687",
+  "en": "Torino",
+  "ar": "تورينو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133679",
+  "en": "Udinese",
+  "ar": "أودينيزي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "Udinese Calcio"
+  ]
+ },
+ {
+  "id": "134234",
+  "en": "Venezia",
+  "ar": "فينيتسيا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Italian Serie A"
+  ],
+  "alt": [
+   "Venezia F.C."
+  ]
+ },
+ {
+  "id": "133666",
+  "en": "Bayer Leverkusen",
+  "ar": "باير ليفركوزن",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "Bayer 04 Leverkusen"
+  ]
+ },
+ {
+  "id": "133664",
+  "en": "Bayern Munich",
+  "ar": "بايرن ميونخ",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133650",
+  "en": "Borussia Dortmund",
+  "ar": "دورتموند",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134779",
+  "en": "Borussia Mönchengladbach",
+  "ar": "بوروسيا مونشنغلادباخ",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133814",
+  "en": "Eintracht Frankfurt",
+  "ar": "آينتراخت فرانكفورت",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138411",
+  "en": "Elversberg",
+  "ar": "إلفرسبيرغ",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "SpVgg 07 Elversberg",
+   "SV Elversberg"
+  ]
+ },
+ {
+  "id": "133652",
+  "en": "FC Augsburg",
+  "ar": "آوغسبورغ",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134696",
+  "en": "FC Heidenheim",
+  "ar": "هايدنهايم",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "1. FC Heidenheim 1846"
+  ]
+ },
+ {
+  "id": "133654",
+  "en": "FC Köln",
+  "ar": "كولن",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "1. FC Köln"
+  ]
+ },
+ {
+  "id": "133653",
+  "en": "Freiburg",
+  "ar": "فرايبورغ",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133651",
+  "en": "Hamburg",
+  "ar": "هامبورغ",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "Hamburger SV"
+  ]
+ },
+ {
+  "id": "133657",
+  "en": "Hoffenheim",
+  "ar": "هوفنهايم",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133665",
+  "en": "Mainz",
+  "ar": "ماينتس",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "1. FSV Mainz 05"
+  ]
+ },
+ {
+  "id": "134551",
+  "en": "Paderborn",
+  "ar": "بادربورن",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "Sport-Club Paderborn 07 e.V.",
+   "SC Paderborn 07"
+  ]
+ },
+ {
+  "id": "134695",
+  "en": "RB Leipzig",
+  "ar": "لايبزيغ",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133661",
+  "en": "Schalke 04",
+  "ar": "شالكه",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "S04"
+  ]
+ },
+ {
+  "id": "133813",
+  "en": "St Pauli",
+  "ar": "سانت باولي",
+  "arFrom": "translit",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133660",
+  "en": "Stuttgart",
+  "ar": "شتوتغارت",
+  "arFrom": "curated",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134690",
+  "en": "Union Berlin",
+  "ar": "يونيون برلين",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "1. FC Union Berlin"
+  ]
+ },
+ {
+  "id": "133662",
+  "en": "Werder Bremen",
+  "ar": "فيردر بريمن",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "SV Werder Bremen"
+  ]
+ },
+ {
+  "id": "133655",
+  "en": "Wolfsburg",
+  "ar": "فولفسبورغ",
+  "arFrom": "wikidata",
+  "leagues": [
+   "German Bundesliga"
+  ],
+  "alt": [
+   "VfL Wolfsburg"
+  ]
+ },
+ {
+  "id": "134709",
+  "en": "Angers",
+  "ar": "أنجيه",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134788",
+  "en": "Auxerre",
+  "ar": "أوكسير",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133704",
+  "en": "Brest",
+  "ar": "بريست",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133862",
+  "en": "Le Havre",
+  "ar": "لوهافر",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133848",
+  "en": "Le Mans",
+  "ar": "لومان",
+  "arFrom": "wikidata",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": [
+   "Le Mans Football Club",
+   "Le Mans F.C."
+  ]
+ },
+ {
+  "id": "133822",
+  "en": "Lens",
+  "ar": "لانس",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133711",
+  "en": "Lille",
+  "ar": "ليل",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133715",
+  "en": "Lorient",
+  "ar": "لوريان",
+  "arFrom": "wikidata",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": [
+   "F.C. Lorient"
+  ]
+ },
+ {
+  "id": "133713",
+  "en": "Lyon",
+  "ar": "ليون",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": [
+   "Olympique Lyonnais"
+  ]
+ },
+ {
+  "id": "133707",
+  "en": "Marseille",
+  "ar": "مارسيليا",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133883",
+  "en": "Metz",
+  "ar": "متز",
+  "arFrom": "wikidata",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133823",
+  "en": "Monaco",
+  "ar": "موناكو",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133861",
+  "en": "Nantes",
+  "ar": "نانت",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133712",
+  "en": "Nice",
+  "ar": "نيس",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "135465",
+  "en": "Paris FC",
+  "ar": "باريس إف سي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133714",
+  "en": "Paris SG",
+  "ar": "باريس سان جيرمان",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": [
+   "Paris Saint-Germain FC"
+  ]
+ },
+ {
+  "id": "133719",
+  "en": "Rennes",
+  "ar": "رين",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133882",
+  "en": "Strasbourg",
+  "ar": "ستراسبورغ",
+  "arFrom": "curated",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133703",
+  "en": "Toulouse",
+  "ar": "تولوز",
+  "arFrom": "wikidata",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134789",
+  "en": "Troyes",
+  "ar": "تروا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "French Ligue 1"
+  ],
+  "alt": [
+   "ESTAC Troyes",
+   "Espérance Sportive Troyes Aube Champagne",
+   "ES Troyes AC"
+  ]
+ },
+ {
+  "id": "147479",
+  "en": "AVS",
+  "ar": "آفس",
+  "arFrom": "curated",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138856",
+  "en": "Académico de Viseu",
+  "ar": "أكادميكو دي بازو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "Académico de Viseu Futebol Clube"
+  ]
+ },
+ {
+  "id": "143704",
+  "en": "Alverca",
+  "ar": "ألفيركا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "F.C. Alverca"
+  ]
+ },
+ {
+  "id": "134387",
+  "en": "Arouca",
+  "ar": "أروكا دا سيلفا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134108",
+  "en": "Benfica",
+  "ar": "بنفيكا",
+  "arFrom": "curated",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "S.L. Benfica"
+  ]
+ },
+ {
+  "id": "134098",
+  "en": "Braga",
+  "ar": "سبورتينغ براغا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "S.C. Braga"
+  ]
+ },
+ {
+  "id": "138864",
+  "en": "Casa Pia",
+  "ar": "كاسا بيا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "Casa Pia A.C."
+  ]
+ },
+ {
+  "id": "134106",
+  "en": "Estoril Praia",
+  "ar": "إستوريل",
+  "arFrom": "curated",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140008",
+  "en": "Estrela Amadora",
+  "ar": "إستريلا دا أمادورا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "C.F. Estrela da Amadora"
+  ]
+ },
+ {
+  "id": "134114",
+  "en": "FC Porto",
+  "ar": "بورتو",
+  "arFrom": "curated",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136854",
+  "en": "Famalicao",
+  "ar": "فاماليكاو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134113",
+  "en": "Gil Vicente",
+  "ar": "جل فيسنتي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "Gil Vicente F.C."
+  ]
+ },
+ {
+  "id": "134023",
+  "en": "Marítimo",
+  "ar": "ماريتيمو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "C.S. Marítimo"
+  ]
+ },
+ {
+  "id": "134112",
+  "en": "Moreirense",
+  "ar": "موريرينسي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "Moreirense F.C."
+  ]
+ },
+ {
+  "id": "134109",
+  "en": "Nacional de Madeira",
+  "ar": "ناسيونال ماديرا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "C.D. Nacional"
+  ]
+ },
+ {
+  "id": "134107",
+  "en": "Rio Ave",
+  "ar": "ريو أفي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "Rio Ave F.C."
+  ]
+ },
+ {
+  "id": "136192",
+  "en": "Santa Clara",
+  "ar": "سانتا كلارا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "C.D. Santa Clara"
+  ]
+ },
+ {
+  "id": "135708",
+  "en": "Sporting CP",
+  "ar": "سبورتينغ لشبونة",
+  "arFrom": "curated",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "135502",
+  "en": "Tondela",
+  "ar": "تونديلا",
+  "arFrom": "curated",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134115",
+  "en": "Vitória de Guimarães",
+  "ar": "فيتوريا غيماريش",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Portuguese Primeira Liga"
+  ],
+  "alt": [
+   "Vitória S.C."
+  ]
+ },
+ {
+  "id": "133769",
+  "en": "ADO Den Haag",
+  "ar": "أدو دين هاغ",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": [
+   "Den Haag"
+  ]
+ },
+ {
+  "id": "133767",
+  "en": "AZ Alkmaar",
+  "ar": "إي زد ألكمار",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133772",
+  "en": "Ajax",
+  "ar": "أياكس",
+  "arFrom": "curated",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134303",
+  "en": "Cambuur",
+  "ar": "كامبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": [
+   "SC Cambuur-Leeuwarden",
+   "Sportclub Cambuur-Leeuwarden"
+  ]
+ },
+ {
+  "id": "133757",
+  "en": "Excelsior",
+  "ar": "إكسلسيور",
+  "arFrom": "curated",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133867",
+  "en": "FC Volendam",
+  "ar": "فولندام",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133758",
+  "en": "Feyenoord",
+  "ar": "فينورد",
+  "arFrom": "curated",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": [
+   "Feyenoord Rotterdam"
+  ]
+ },
+ {
+  "id": "134264",
+  "en": "Fortuna Sittard",
+  "ar": "فورتونا سيتارد",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134304",
+  "en": "Go Ahead Eagles",
+  "ar": "غو أهد إيغلز",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133762",
+  "en": "Groningen",
+  "ar": "خرونينغن",
+  "arFrom": "curated",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133759",
+  "en": "Heerenveen",
+  "ar": "هيرنفين",
+  "arFrom": "curated",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133766",
+  "en": "Heracles Almelo",
+  "ar": "هيراكليس ألميلو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133773",
+  "en": "NAC Breda",
+  "ar": "ناك بريدا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133760",
+  "en": "NEC Nijmegen",
+  "ar": "إن إي سي نيميخن",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": [
+   "N.E.C."
+  ]
+ },
+ {
+  "id": "133936",
+  "en": "PEC Zwolle",
+  "ar": "بي إي سي زفوله",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133768",
+  "en": "PSV Eindhoven",
+  "ar": "آيندهوفن",
+  "arFrom": "curated",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133866",
+  "en": "Sparta Rotterdam",
+  "ar": "سبارتا روتردام",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138004",
+  "en": "Telstar",
+  "ar": "تلستار",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133774",
+  "en": "Twente",
+  "ar": "تفينتي أنشخيدة",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133764",
+  "en": "Utrecht",
+  "ar": "أوترخت",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133827",
+  "en": "Willem II",
+  "ar": "فيليم الثاني",
+  "arFrom": "curated",
+  "leagues": [
+   "Dutch Eredivisie"
+  ],
+  "alt": []
+ },
+ {
+  "id": "135676",
+  "en": "Alanyaspor",
+  "ar": "ألانيا سبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138959",
+  "en": "Amed",
+  "ar": "آمد",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Amed Spor Kulubu",
+   "Amedspor"
+  ]
+ },
+ {
+  "id": "133799",
+  "en": "Antalyaspor",
+  "ar": "أنطاليا سبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133794",
+  "en": "Beşiktaş",
+  "ar": "بشكتاش",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134272",
+  "en": "Erzurumspor",
+  "ar": "أرضروم سبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Büyükşehir Belediye Erzurumspor",
+   "BB Erzurumspor"
+  ]
+ },
+ {
+  "id": "138977",
+  "en": "Eyüpspor",
+  "ar": "أيوب سبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138983",
+  "en": "Fatih Karagümrük",
+  "ar": "فاتح قرهجمرك",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Fatih Karagümrük S.K."
+  ]
+ },
+ {
+  "id": "133807",
+  "en": "Fenerbahçe",
+  "ar": "فنربخشة",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Fenerbahçe Istanbul"
+  ]
+ },
+ {
+  "id": "133804",
+  "en": "Galatasaray",
+  "ar": "غلطة سراي",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Galatasaray S.K."
+  ]
+ },
+ {
+  "id": "138092",
+  "en": "Gaziantep",
+  "ar": "غازي عنتاب",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133798",
+  "en": "Gençlerbirliği",
+  "ar": "غنتشلربيرليغي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Gençlerbirliği S.K."
+  ]
+ },
+ {
+  "id": "135891",
+  "en": "Göztepe",
+  "ar": "غوزتبه",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133834",
+  "en": "Kasımpaşa",
+  "ar": "قاسم باشا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Kasımpaşa S.K."
+  ]
+ },
+ {
+  "id": "133802",
+  "en": "Kayserispor",
+  "ar": "قيصرية سبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133870",
+  "en": "Kocaelispor",
+  "ar": "كوجالي سبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133835",
+  "en": "Konyaspor",
+  "ar": "قونيا سبور",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133885",
+  "en": "Rizespor",
+  "ar": "ريزه سبور",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133797",
+  "en": "Samsunspor",
+  "ar": "سامسون سبور",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133796",
+  "en": "Trabzonspor",
+  "ar": "طرابزون سبور",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138951",
+  "en": "Çorum",
+  "ar": "تشوروم",
+  "arFrom": "curated",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "Çorum Futbol Kulübü",
+   "Yeni Çorumspor",
+   "Çorum FK"
+  ]
+ },
+ {
+  "id": "134589",
+  "en": "İstanbul Başakşehir",
+  "ar": "إسطنبول بشاق شهر",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Turkish Super Lig"
+  ],
+  "alt": [
+   "İstanbul Başakşehir F.K."
+  ]
+ },
+ {
+  "id": "156496",
+  "en": "Abou Qir Fertilizers",
+  "ar": "أبو قير للأسمدة",
+  "arFrom": "thesportsdb",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": [
+   "Abu Qir Fertilizers Sports Club",
+   "Abu Qir Semad"
+  ]
+ },
+ {
+  "id": "138995",
+  "en": "Al Ahly",
+  "ar": "الأهلي المصري",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139839",
+  "en": "Al Ittihad Alexandria",
+  "ar": "الاتحاد السكندري",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139844",
+  "en": "Al Masry",
+  "ar": "المصري",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139837",
+  "en": "Al-Mokawloon al-Arab",
+  "ar": "المقاولون العرب",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "156495",
+  "en": "Asyut Petroleum",
+  "ar": "بترول أسيوط",
+  "arFrom": "thesportsdb",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": [
+   "Asyut Petroleum Sports Club",
+   "Petrol Asyout"
+  ]
+ },
+ {
+  "id": "140795",
+  "en": "Ceramica Cleopatra",
+  "ar": "سيراميكا كيلوباترا",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139841",
+  "en": "ENPPI",
+  "ar": "إنبي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139845",
+  "en": "El Gouna",
+  "ar": "الجونة",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "156494",
+  "en": "El Qanah",
+  "ar": "القناة",
+  "arFrom": "thesportsdb",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": [
+   "El Qanah Football Club"
+  ]
+ },
+ {
+  "id": "140794",
+  "en": "Ghazl El Mahalla",
+  "ar": "غزل المحلة",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139846",
+  "en": "Haras El Hodoud",
+  "ar": "حرس الحدود",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": [
+   "Haras El-Hodood SC"
+  ]
+ },
+ {
+  "id": "139843",
+  "en": "Ismaily",
+  "ar": "الإسماعيلي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "153475",
+  "en": "Kahrabaa Ismailia",
+  "ar": "كهرباء الإسماعيلية",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": [
+   "Kahrbaa Ismailia"
+  ]
+ },
+ {
+  "id": "144160",
+  "en": "Modern Sport",
+  "ar": "مودرن سبورت",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": [
+   "Modern SC"
+  ]
+ },
+ {
+  "id": "140796",
+  "en": "National Bank of Egypt",
+  "ar": "البنك الأهلي المصري",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "149410",
+  "en": "Petrojet",
+  "ar": "بتروجت",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "144159",
+  "en": "Pharco",
+  "ar": "فاركو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139838",
+  "en": "Pyramids",
+  "ar": "بيراميدز",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139840",
+  "en": "Smouha",
+  "ar": "سموحة",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139848",
+  "en": "Tala'ea El Gaish",
+  "ar": "طلائع الجيش",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139850",
+  "en": "Wadi Degla",
+  "ar": "وادي دجلة",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "139852",
+  "en": "ZED",
+  "ar": "زد",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138997",
+  "en": "Zamalek",
+  "ar": "الزمالك",
+  "arFrom": "curated",
+  "leagues": [
+   "Egyptian Premier League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137838",
+  "en": "Ajman",
+  "ar": "عجمان",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137832",
+  "en": "Al Ain",
+  "ar": "العين",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "146537",
+  "en": "Al Bataeh",
+  "ar": "البطائح",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137834",
+  "en": "Al Dhafra",
+  "ar": "الظفرة",
+  "arFrom": "wikidata",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137830",
+  "en": "Al Jazira",
+  "ar": "الجزيرة",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137831",
+  "en": "Al Nasr",
+  "ar": "النصر الإماراتي",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137836",
+  "en": "Al Wahda",
+  "ar": "الوحدة الإماراتي",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": [
+   "Al-Wahda S.C.C."
+  ]
+ },
+ {
+  "id": "137835",
+  "en": "Al Wasl",
+  "ar": "الوصل",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137839",
+  "en": "Baniyas",
+  "ar": "بني ياس",
+  "arFrom": "wikidata",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "146536",
+  "en": "Dibba Al-Fujairah",
+  "ar": "دبا الفجيرة",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137841",
+  "en": "Hatta",
+  "ar": "حتا",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137837",
+  "en": "Ittihad Kalba",
+  "ar": "كلباء",
+  "arFrom": "wikidata",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": [
+   "Kalba FC"
+  ]
+ },
+ {
+  "id": "137842",
+  "en": "Khorfakkan",
+  "ar": "خورفكان",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137828",
+  "en": "Shabab Al-Ahli Dubai",
+  "ar": "شباب الأهلي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": [
+   "Shabab AlAhli Dubai Club"
+  ]
+ },
+ {
+  "id": "137829",
+  "en": "Sharjah",
+  "ar": "الشارقة",
+  "arFrom": "curated",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "156157",
+  "en": "United FC Dubai",
+  "ar": "يونايتد",
+  "arFrom": "thesportsdb",
+  "leagues": [
+   "UAE Pro League"
+  ],
+  "alt": [
+   "United Football Club"
+  ]
+ },
+ {
+  "id": "138049",
+  "en": "Al-Ahli Doha",
+  "ar": "الأهلي القطري",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "135946",
+  "en": "Al-Arabi",
+  "ar": "العربي القطري",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137679",
+  "en": "Al-Duhail",
+  "ar": "الدحيل",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138029",
+  "en": "Al-Gharafa",
+  "ar": "الغرافة",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138050",
+  "en": "Al-Rayyan",
+  "ar": "الريان",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137648",
+  "en": "Al-Sadd",
+  "ar": "السد",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138035",
+  "en": "Al-Sailiya",
+  "ar": "السيلية",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": [
+   "Al-Sailiya Sports Club"
+  ]
+ },
+ {
+  "id": "138030",
+  "en": "Al-Shahaniya",
+  "ar": "الشحانية",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "141174",
+  "en": "Al-Shamal",
+  "ar": "الشمال",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": [
+   "Al-Shamal Sports Club"
+  ]
+ },
+ {
+  "id": "137994",
+  "en": "Al-Wakrah",
+  "ar": "الوكرة",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": [
+   "Al-Wakrah Sports Club"
+  ]
+ },
+ {
+  "id": "155255",
+  "en": "Lusail",
+  "ar": "لوسيل",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": [
+   "Lusail Sports Club"
+  ]
+ },
+ {
+  "id": "137995",
+  "en": "Qatar SC",
+  "ar": "نادي قطر",
+  "arFrom": "curated",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "138052",
+  "en": "Umm-Salal",
+  "ar": "أم صلال",
+  "arFrom": "wikidata",
+  "leagues": [
+   "Qatar Stars League"
+  ],
+  "alt": []
+ },
+ {
+  "id": "135851",
+  "en": "Atlanta United",
+  "ar": "أتلانتا يونايتد",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "Atlanta Utd"
+  ]
+ },
+ {
+  "id": "140079",
+  "en": "Austin FC",
+  "ar": "أوستن",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134150",
+  "en": "CF Montréal",
+  "ar": "كلوب دو فوت مونتريال",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "Montreal Impact",
+   "Club de Foot Montreal"
+  ]
+ },
+ {
+  "id": "140078",
+  "en": "Charlotte FC",
+  "ar": "تشارلوت",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "Charlotte Football Club"
+  ]
+ },
+ {
+  "id": "134154",
+  "en": "Chicago Fire",
+  "ar": "شيكاغو فاير",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134794",
+  "en": "Colorado Rapids",
+  "ar": "كولورادو رابيدز",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134152",
+  "en": "Columbus Crew",
+  "ar": "كولومبوس كرو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134145",
+  "en": "DC United",
+  "ar": "دي.سي. يونايتد",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "D.C. United"
+  ]
+ },
+ {
+  "id": "136688",
+  "en": "FC Cincinnati",
+  "ar": "سينسيناتي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134146",
+  "en": "FC Dallas",
+  "ar": "دالاس",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134144",
+  "en": "Houston Dynamo",
+  "ar": "هيوستن دينامو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "137699",
+  "en": "Inter Miami",
+  "ar": "إنتر ميامي",
+  "arFrom": "curated",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "Club Internacional de Fútbol Miami"
+  ]
+ },
+ {
+  "id": "134153",
+  "en": "LA Galaxy",
+  "ar": "لوس أنجلوس جالاكسي",
+  "arFrom": "curated",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "Los Angeles Galaxy"
+  ]
+ },
+ {
+  "id": "136050",
+  "en": "Los Angeles FC",
+  "ar": "لوس أنجلوس",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "LAFC"
+  ]
+ },
+ {
+  "id": "135852",
+  "en": "Minnesota United",
+  "ar": "منيسوتا يونايتد",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "Minnesota Stars FC"
+  ]
+ },
+ {
+  "id": "137700",
+  "en": "Nashville SC",
+  "ar": "ناشفيل أس سي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134159",
+  "en": "New England Revolution",
+  "ar": "نيو إنجلاند ريفولوشن",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134630",
+  "en": "New York City FC",
+  "ar": "نيويورك سيتي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "New York City Football Club",
+   "NYCFC"
+  ]
+ },
+ {
+  "id": "134156",
+  "en": "New York Red Bulls",
+  "ar": "نيويورك ريد بولز",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "New Jersey Red Bulls",
+   "Red Bull New York"
+  ]
+ },
+ {
+  "id": "135292",
+  "en": "Orlando City",
+  "ar": "أورلاندو سيتي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134142",
+  "en": "Philadelphia Union",
+  "ar": "فيلادلفيا يونيون",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134155",
+  "en": "Portland Timbers",
+  "ar": "بورتلاند تيمبرز",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "PTFC"
+  ]
+ },
+ {
+  "id": "134158",
+  "en": "Real Salt Lake",
+  "ar": "ريال سالت ليك",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "150261",
+  "en": "San Diego FC",
+  "ar": "سان دييغو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "San Diego Football Club"
+  ]
+ },
+ {
+  "id": "134157",
+  "en": "San Jose Earthquakes",
+  "ar": "سان خوسيه إيرثكويكس",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134149",
+  "en": "Seattle Sounders FC",
+  "ar": "سياتل ساوندرز",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134143",
+  "en": "Sporting Kansas City",
+  "ar": "سبورتينغ كانساس سيتي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "Sporting KC",
+   "Kansas City Wizards"
+  ]
+ },
+ {
+  "id": "147062",
+  "en": "St. Louis City SC",
+  "ar": "سانت لويس أس سي",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": [
+   "St. Louis City Soccer Club",
+   "SLCSC",
+   "STL CITY SC"
+  ]
+ },
+ {
+  "id": "134148",
+  "en": "Toronto FC",
+  "ar": "تورنتو",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134147",
+  "en": "Vancouver Whitecaps",
+  "ar": "فانكوفر وايتكابس",
+  "arFrom": "wikidata",
+  "leagues": [
+   "American Major League Soccer"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134516",
+  "en": "Algeria",
+  "ar": "الجزائر",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134509",
+  "en": "Argentina",
+  "ar": "الأرجنتين",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134500",
+  "en": "Australia",
+  "ar": "أستراليا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140149",
+  "en": "Bahrain",
+  "ar": "البحرين",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134515",
+  "en": "Belgium",
+  "ar": "بلجيكا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134496",
+  "en": "Brazil",
+  "ar": "البرازيل",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134498",
+  "en": "Cameroon",
+  "ar": "الكاميرون",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134579",
+  "en": "China",
+  "ar": "الصين",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134501",
+  "en": "Colombia",
+  "ar": "كولومبيا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133912",
+  "en": "Croatia",
+  "ar": "كرواتيا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136138",
+  "en": "Egypt",
+  "ar": "مصر",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133914",
+  "en": "England",
+  "ar": "إنجلترا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133913",
+  "en": "France",
+  "ar": "فرنسا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133907",
+  "en": "Germany",
+  "ar": "ألمانيا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134511",
+  "en": "Iran",
+  "ar": "إيران",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140148",
+  "en": "Iraq",
+  "ar": "العراق",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133910",
+  "en": "Italy",
+  "ar": "إيطاليا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134503",
+  "en": "Japan",
+  "ar": "اليابان",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140145",
+  "en": "Jordan",
+  "ar": "الأردن",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": [
+   "Jordanien",
+   "ירדן",
+   "Jordania"
+  ]
+ },
+ {
+  "id": "140144",
+  "en": "Kuwait",
+  "ar": "الكويت",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140166",
+  "en": "Lebanon",
+  "ar": "لبنان",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136489",
+  "en": "Libya",
+  "ar": "ليبيا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134497",
+  "en": "Mexico",
+  "ar": "المكسيك",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136139",
+  "en": "Morocco",
+  "ar": "المغرب",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133905",
+  "en": "Netherlands",
+  "ar": "هولندا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134512",
+  "en": "Nigeria",
+  "ar": "نيجيريا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140155",
+  "en": "Oman",
+  "ar": "عمان",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140154",
+  "en": "Palestine",
+  "ar": "فلسطين",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133908",
+  "en": "Portugal",
+  "ar": "البرتغال",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136472",
+  "en": "Qatar",
+  "ar": "قطر",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136137",
+  "en": "Saudi Arabia",
+  "ar": "السعودية",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136143",
+  "en": "Senegal",
+  "ar": "السنغال",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134517",
+  "en": "South Korea",
+  "ar": "كوريا الجنوبية",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "133909",
+  "en": "Spain",
+  "ar": "إسبانيا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136495",
+  "en": "Sudan",
+  "ar": "السودان",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140032",
+  "en": "Syria",
+  "ar": "سوريا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "136142",
+  "en": "Tunisia",
+  "ar": "تونس",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "135985",
+  "en": "Turkey",
+  "ar": "تركيا",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134514",
+  "en": "USA",
+  "ar": "الولايات المتحدة",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": [
+   "Estados Unidos",
+   "USMNT",
+   "United States of America",
+   "Vereinigte Staaten"
+  ]
+ },
+ {
+  "id": "140163",
+  "en": "United Arab Emirates",
+  "ar": "الإمارات",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "134504",
+  "en": "Uruguay",
+  "ar": "الأوروغواي",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140151",
+  "en": "Uzbekistan",
+  "ar": "أوزبكستان",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ },
+ {
+  "id": "140153",
+  "en": "Yemen",
+  "ar": "اليمن",
+  "arFrom": "curated",
+  "leagues": [
+   "National teams"
+  ],
+  "alt": []
+ }
+]
