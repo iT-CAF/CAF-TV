@@ -32,7 +32,7 @@ QR = RUN / "share-qr.png"
 FORM_ID = "1FAIpQLSfDJFfy1NgiB-ZMXoBI29n_KTdYnGadn1-iOqXJOxaQJEr-ZQ"   # from the form's link: docs.google.com/forms/d/e/<FORM_ID>/viewform
 FORM_FIELD = "1457112794"   # the question's number: entry.<FORM_FIELD>=… in the form's pre-filled link
 # Without the form, or offline: the QR code opens this page (docs/share/, GitHub Pages) with the summary after the #
-PAGE = "https://DHME1.github.io/CAF-TV/share/"
+PAGE = "https://iT-CAF.github.io/CAF-TV/share/"
 
 
 def scrub(text):   # in case a note or an output carries something personal

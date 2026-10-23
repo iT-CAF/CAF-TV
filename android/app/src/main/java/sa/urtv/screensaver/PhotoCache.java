@@ -17,7 +17,7 @@ import java.util.Comparator;
  * opens at once. Fonts and bundled photos come from the APK; hosted photos are downloaded once and kept.
  */
 final class PhotoCache {
-    static final String REPO = "https://raw.githubusercontent.com/DHME1/CAF-TV/" + BuildConfig.BRANCH + "/";
+    static final String REPO = "https://raw.githubusercontent.com/iT-CAF/CAF-TV/" + BuildConfig.BRANCH + "/";
     private static final String BUNDLED = REPO + "assets/backgrounds/", HOSTED = REPO + "photos/",
         FONTS = REPO + "assets/fonts/";
     private static final int KEEP = 12;   // the 5-photo set plus room for the next one

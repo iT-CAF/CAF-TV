@@ -4,7 +4,7 @@ A quick check that the tools work with your TV and computer, for the developer. 
 installs, nothing disabled, no settings (only a tiny test file, deleted right after). Paste this to an agent that
 runs commands on a computer on the same Wi-Fi as the TV (Codex: choose «Approve for me»):
 
-> Test my TV with the `next` branch of https://github.com/DHME1/CAF-TV and follow its `docs/TEST-PROMPT.md`. You are on a computer on the same Wi-Fi as the TV.
+> Test my TV with the `next` branch of https://github.com/iT-CAF/CAF-TV and follow its `docs/TEST-PROMPT.md`. You are on a computer on the same Wi-Fi as the TV.
 
 `next` is where changes wait until a test like this passes; only then do they go to `master`, which everyone's
 setup uses.
@@ -19,7 +19,7 @@ nothing disabled, no settings, no reset. Talk to me in Arabic; keep commands in 
 - One command at a time, exactly as written: no extra quotes, `;` or `|` (on Windows PowerShell would run those
   itself). If one fails, note its output and go on to the next. Don't fix anything or write your own scripts.
 
-In the CAF TV folder, on the `next` branch (`git clone -b next https://github.com/DHME1/CAF-TV`, on Windows into a
+In the CAF TV folder, on the `next` branch (`git clone -b next https://github.com/iT-CAF/CAF-TV`, on Windows into a
 short folder such as `C:/CAF TV`; or in an existing folder `git fetch origin`, `git checkout next`, `git pull`):
 
 1. `optimize/setup.sh`: must end with «✓ Python ADB client».

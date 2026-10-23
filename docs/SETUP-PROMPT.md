@@ -16,7 +16,7 @@ Or in the Claude desktop app: the **Code** tab, with a **local** folder on this 
 
 ---
 
-Set up my Android TV / Google TV with **كاف TV** from https://github.com/DHME1/CAF-TV: a faster TV
+Set up my Android TV / Google TV with **كاف TV** from https://github.com/iT-CAF/CAF-TV: a faster TV
 (bloat off, safely), an Arabic home screen, and the screensaver «شاشة كاف». Talk to me in Arabic (or my
 language); keep commands in English.
 
@@ -104,7 +104,7 @@ me exactly what was refused. Don't port the scripts to PowerShell or look for an
 `winget install -e --id Python.Python.3.12 --accept-source-agreements --accept-package-agreements`. Then run the
 same command again: the scripts find the new Python without a new terminal. Don't stop and hand me the install.
 ```
-git clone https://github.com/DHME1/CAF-TV     # on Windows into a short folder such as C:/CAF TV (a deep one breaks Python)
+git clone https://github.com/iT-CAF/CAF-TV     # on Windows into a short folder such as C:/CAF TV (a deep one breaks Python)
 cd CAF TV
 git pull                               # always the latest (a command of its own, not joined with the others)
 optimize/find-tv.sh --check            # Windows: always through Git Bash (below), never plain `python`
@@ -116,7 +116,7 @@ optimize/find-tv.sh --check            # Windows: always through Git Bash (below
   `winget install -e --id Git.Git`, `winget install -e --id Python.Python.3.12`, `irm https://claude.ai/install.ps1 | iex`,
   then a new PowerShell window and `claude`). A chat that only links to my computer's folders or screen does not
   run commands on it, so it does not count. Give me the one line to paste there:
-  «Set up my TV with https://github.com/DHME1/CAF-TV: clone it and follow `docs/SETUP-PROMPT.md` step by step. You are on a computer on the same Wi-Fi as the TV.»
+  «Set up my TV with https://github.com/iT-CAF/CAF-TV: clone it and follow `docs/SETUP-PROMPT.md` step by step. You are on a computer on the same Wi-Fi as the TV.»
   Don't look for workarounds.
 
 Signs you are in such a place, if you want to know why: your address is not 192.168.x, 10.x or 172.16–31.x; the
@@ -156,7 +156,7 @@ Lines starting with `!!` are the scripts telling you to stop and act. These are 
 | `0xC0000022` or `NtCreateDirectoryObject` starting Git Bash (Codex) | Codex's sandbox can't start Git Bash | run it outside the sandbox (step 0, «Codex on Windows») |
 | `you cannot ask for escalated permissions`, `rejected by policy` (Codex) | Codex's approvals are not on «Approve for me» | message 1 again, wait for «تم», then the same command |
 | `ModuleNotFoundError: No module named 'adb_shell'`, or `!! The Python packages aren't in optimize/venv` | `optimize/setup.sh` didn't finish (often pip had no network) | `optimize/setup.sh` again until it ends with «✓ Python ADB client»; its `!!` line says what is wrong. Then the same command; don't stop for this |
-| `!! This folder's path is too long for Windows`, `Filename too long`, or `DLL load failed … too long` | the CAF TV folder sits too deep for Windows | clone it again into a short folder: `git clone -c core.longpaths=true https://github.com/DHME1/CAF-TV C:/CAF TV`, and carry on there |
+| `!! This folder's path is too long for Windows`, `Filename too long`, or `DLL load failed … too long` | the CAF TV folder sits too deep for Windows | clone it again into a short folder: `git clone -c core.longpaths=true https://github.com/iT-CAF/CAF-TV C:/CAF TV`, and carry on there |
 | `!! No working Python 3 here`, or `python` opens the Microsoft Store | Python not installed, or only Windows' Store shortcut | ask me once, install it yourself (`winget install -e --id Python.Python.3.12 --accept-source-agreements --accept-package-agreements`), then the same command again in Git Bash |
 | `CERTIFICATE_VERIFY_FAILED` (macOS) | python.org's Python has no CA certificates | `optimize/setup.sh` again: it installs certifi into `optimize/venv` and every script uses it; if the line stays, delete `optimize/venv` first |
 | `symbol _ERR_get_error_all`, or a cryptography `DLL`/`dlopen` error (macOS) | an old system Python (3.9) was used, and the cryptography wheel won't load on it | `brew install python@3.12`, delete `optimize/venv`, then `optimize/setup.sh` |
@@ -180,7 +180,7 @@ Lines starting with `!!` are the scripts telling you to stop and act. These are 
 | `Unknown package` or `not installed` while disabling | that package is not on this model | nothing, normal |
 | `An older … signed with another key is installed` | an older build of our app | nothing, it reinstalls; redo step 4 for that app |
 | `!! Install of … failed` | usually storage, or a very old Android | stop and show me |
-| `!! Could not download …` (install.sh) | no such build at that tag, or no internet on this computer | check `APK_TAG` (unset = the latest) and the releases page https://github.com/DHME1/CAF-TV/releases, and that the computer is online; then the same command |
+| `!! Could not download …` (install.sh) | no such build at that tag, or no internet on this computer | check `APK_TAG` (unset = the latest) and the releases page https://github.com/iT-CAF/CAF-TV/releases, and that the computer is online; then the same command |
 | `!! GitHub rate limit, try later` (install.sh extras) | GitHub allows only a few anonymous requests an hour | wait a few minutes, then `optimize/run.sh` again (it redoes the extras step) |
 | `Done, with problems:` and `optimize/run.sh` exits 1 | every step ran, but `report.md` has `!!` lines (printed under it) | read them, fix what each says (this table), then `optimize/run.sh` again: only the report step is redone |
 | `ADB dropped during the switch; the TV is back, trying the switch again` | Wi-Fi ADB dropped while the home was being switched; the script waited for the TV (up to 6 minutes) and is doing the switch a second time, the safety switch armed again | nothing, wait; only if it ends in `!!` follow that line |

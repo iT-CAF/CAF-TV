@@ -8,7 +8,7 @@ Paste everything below the line into an agent that can read GitHub, browse the w
 
 You are extending **شاشة كاف**, an Arabic always-on TV screensaver/dashboard, so it runs on as many TV platforms as possible, choosing the best delivery method for each. Research first, then build, then document.
 
-Repository: **https://github.com/DHME1/CAF-TV** (public). Work on a branch and open a pull request against `next`; do not push to `master` directly (changes reach `master` from `next` once tested).
+Repository: **https://github.com/iT-CAF/CAF-TV** (public). Work on a branch and open a pull request against `next`; do not push to `master` directly (changes reach `master` from `next` once tested).
 
 ## What already exists (read these first)
 

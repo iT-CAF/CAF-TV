@@ -29,7 +29,7 @@ if ! err=$(venv/bin/python -c "import adb_shell.adb_device, adb_shell.auth.keyge
   echo "$err" | tail -1
   if grep -qi "too long" <<< "$err"; then
     echo "!! This folder's path is too long for Windows (over 260 characters inside optimize/venv). Clone CAF TV into"
-    echo "   a short folder, such as C:\CAF TV: git clone -c core.longpaths=true https://github.com/DHME1/CAF-TV C:/CAF TV"
+    echo "   a short folder, such as C:\CAF TV: git clone -c core.longpaths=true https://github.com/iT-CAF/CAF-TV C:/CAF TV"
   else
     echo "!! The ADB package doesn't load from optimize/venv. Delete the folder optimize/venv, then run"
     echo "   optimize/setup.sh again."
